@@ -47,6 +47,7 @@ var elem = document.getElementsByClassName("btn");
         case "l" : 
           var tom_4 = new Audio("./sounds/tom-4.mp3");
           tom_4.play();
+          break;
 
         default :   
           console.log("Unknown event !");
